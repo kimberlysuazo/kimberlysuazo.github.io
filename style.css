@@ -1,4 +1,180 @@
-body {
-  background-color: black;
-  color: white;
+* {
+  font-family: Georgia, serif;
 }
+
+.about {
+  background-image:url("eternal-sunshine-poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin-left: 50px;
+
+}
+
+.aboutinfo {
+  background: rgba(255,255,255, 0.6);
+  border-radius: 10px;
+  color: black;
+  margin-top: 50px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#about-heading {
+  margin-top: 0px;
+  padding: 0px;
+  color: #ffbf00;
+  text-shadow: 1px 2px black;
+  font-family: "Arial Black", sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #87ceeb;
+  max-width: 85%;
+  margin:auto;
+}
+
+.heading {
+  margin: auto;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Arial Black", sans-serif;
+  color: #ffbf00;
+  text-shadow: 1px 2px black;
+  
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-style: italic;
+  font-family: "Arial Black", sans-serif;
+  color: #6ec1f9;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a {
+  color: #87ceeb;
+
+}
+
+a:visited {
+  color: #008fff;
+}
+
+.line {
+  margin: auto;
+  text-align: center;
+  color: #ffbf00;
+}
+
+.table {
+  color: 
+  margin: auto;
+  text-align: center;
+  background: rgba(255,255,255, 0.6);
+  margin-bottom: 15px;
+}
+
+table {
+  margin: auto;
+  border: 2px solid #ffbf00;
+  text-align: left;
+
+}
+
+th {
+  border: 2px #ffbf00;
+  border-style: solid;
+  text-align: center; 
+  padding: 2px;
+}
+
+td {
+  border: 1px solid #ffbf00;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+}
+
+.green {
+  margin: auto;
+  color: #228b22;
+
+}
+
+.red {
+  margin: auto;
+  color: #dc143c;
+
+}
+
+.orange {
+  color: #ff9f00;
+}
+
+.blue {
+color: #0033cc;
+
+}
+
+@media screen and (max-width: 350px) {
+  .aboutinfo {
+  background: rgba(255,255,255, 0.99);
+  margin-top: 10px;
+  margin-left: 0px;
+
+  }
+  .about {
+    background: black;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .aboutinfo {
+  background: rgba(255,255,255, 0.8);
+  margin-left: 0px;
+  }
+
+  .line {
+    margin-left: 2px;
+    color: #ffbf00;
+    font-size: .5em;
+  }
+  .similar {
+    font-size: .2em;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  .aboutinfo {
+  background: rgba(255,255,255, 0.75);
+}
+
+}
+
+
+
+
+
+
