@@ -6,10 +6,9 @@
   background-image:url("eternal-sunshine-poster.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-width: 100%;
-height: auto;
-
-margin-left: 50px;
+  width: 100%;
+  height: auto;
+  margin-left: 50px;
 
 }
 
@@ -25,7 +24,7 @@ margin-left: 50px;
 #about-heading {
   margin-top: 0px;
   padding: 0px;
-  color: #99ccff;
+  color: #ffbf00;
   text-shadow: 1px 2px black;
   font-family: "Arial Black", sans-serif;
 }
@@ -135,6 +134,45 @@ img {
 color: #0033cc;
 
 }
+
+@media screen and (max-width: 350px) {
+  .aboutinfo {
+  background: rgba(255,255,255, 0.99);
+  margin-top: 10px;
+  margin-left: 0px;
+
+  }
+  .about {
+    background: black;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .aboutinfo {
+  background: rgba(255,255,255, 0.8);
+  margin-left: 0px;
+  }
+
+  .line {
+    margin-left: 2px;
+    color: #ffbf00;
+    font-size: .5em;
+  }
+  .similar {
+    font-size: .2em;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  .aboutinfo {
+  background: rgba(255,255,255, 0.75);
+}
+
+}
+
 
 
 
