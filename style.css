@@ -2,6 +2,13 @@
   font-family: Georgia, serif;
 }
 
+body {
+  background-color: white;
+  color: #87ceeb;
+  max-width: 85%;
+  margin:auto;
+}
+
 .about {
   background-image:url("eternal-sunshine-poster.jpg");
   background-repeat: no-repeat;
@@ -9,7 +16,6 @@
   width: 100%;
   height: auto;
   margin-left: 50px;
-
 }
 
 .aboutinfo {
@@ -29,13 +35,6 @@
   font-family: "Arial Black", sans-serif;
 }
 
-body {
-  background-color: white;
-  color: #87ceeb;
-  max-width: 85%;
-  margin:auto;
-}
-
 .heading {
   margin: auto;
   text-align: left;
@@ -48,7 +47,6 @@ h1 {
   font-family: "Arial Black", sans-serif;
   color: #ffbf00;
   text-shadow: 1px 2px black;
-  
 }
 
 h2 {
@@ -91,7 +89,6 @@ table {
   margin: auto;
   border: 2px solid #ffbf00;
   text-align: left;
-
 }
 
 th {
@@ -103,7 +100,6 @@ th {
 
 td {
   border: 1px solid #ffbf00;
-
 }
 
 img {
@@ -111,19 +107,16 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-
 }
 
 .green {
   margin: auto;
   color: #228b22;
-
 }
 
 .red {
   margin: auto;
   color: #dc143c;
-
 }
 
 .orange {
@@ -131,30 +124,26 @@ img {
 }
 
 .blue {
-color: #0033cc;
-
+  color: #0033cc;
 }
 
 @media screen and (max-width: 350px) {
   .aboutinfo {
-  background: rgba(255,255,255, 0.99);
-  margin-top: 10px;
-  margin-left: 0px;
-
+    background: rgba(255,255,255, 0.99);
+    margin-top: 10px;
+    margin-left: 0px;
   }
   .about {
     background: black;
     margin-left: 5%;
     margin-right: 5%;
   }
-
 }
 @media screen and (max-width: 500px) {
   .aboutinfo {
-  background: rgba(255,255,255, 0.8);
-  margin-left: 0px;
+    background: rgba(255,255,255, 0.8);
+    margin-left: 0px;
   }
-
   .line {
     margin-left: 2px;
     color: #ffbf00;
@@ -163,18 +152,10 @@ color: #0033cc;
   .similar {
     font-size: .7em;
   }
-
 }
 
 @media screen and (max-width: 650px) {
   .aboutinfo {
-  background: rgba(255,255,255, 0.75);
+    background: rgba(255,255,255, 0.75);
+  }
 }
-
-}
-
-
-
-
-
-
