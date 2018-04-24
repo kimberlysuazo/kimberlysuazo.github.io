@@ -18,7 +18,7 @@ body {
   margin-left: 50px;
 }
 
-.aboutinfo {
+.about-info {
   background: rgba(255,255,255, 0.6);
   border-radius: 10px;
   color: black;
@@ -128,7 +128,7 @@ img {
 }
 
 @media screen and (max-width: 350px) {
-  .aboutinfo {
+  .about-info {
     background: rgba(255,255,255, 0.99);
     margin-top: 10px;
     margin-left: 0px;
@@ -140,7 +140,7 @@ img {
   }
 }
 @media screen and (max-width: 500px) {
-  .aboutinfo {
+  .about-info {
     background: rgba(255,255,255, 0.8);
     margin-left: 0px;
   }
@@ -155,7 +155,7 @@ img {
 }
 
 @media screen and (max-width: 650px) {
-  .aboutinfo {
+  .about-info {
     background: rgba(255,255,255, 0.75);
   }
 }
