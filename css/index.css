@@ -5,8 +5,8 @@
 
 .line {
   margin: auto;
-  text-align: center;
-  color: #ffbf00;
+  width: 450px;
+  border-bottom: 2px solid #f19f4c;
 }
 
 .timeline-section {
@@ -18,19 +18,20 @@
 
 table {
   margin: auto;
-  border: 2px solid #ffbf00;
+  border: 2px solid #f19f4c;
   text-align: left;
+  margin-bottom: 50px;
 }
 
 th {
-  border: 2px #ffbf00;
+  border: 2px #f19f4c;
   border-style: solid;
   text-align: center; 
   padding: 2px;
 }
 
 td {
-  border: 1px solid #ffbf00;
+  border: 1px solid #f19f4c;
 }
 
 img {
