@@ -1,0 +1,25 @@
+.about-film {
+  background-image:url("../img/eternal-sunshine-poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin-left: 50px;
+}
+
+.about-film-info {
+  background: rgba(255,255,255, 0.6);
+  border-radius: 10px;
+  color: black;
+  margin-top: 50px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#about-film-heading {
+  margin-top: 0px;
+  padding: 0px;
+  color: #ffbf00;
+  text-shadow: 1px 2px black;
+  font-family: "Arial Black", sans-serif;
+}
