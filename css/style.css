@@ -1,29 +1,39 @@
 @import './index.css';
 @import './about_film.css';
+@import './about_me.css';
+
+@font-face {
+  font-family: 'simplifica';
+  src: url('./fonts/simplifica_typeface-webfont.eot');
+  src: url('./fonts/simplifica_typeface-webfont.woff') format('woff'),
+       url('./fonts/simplifica_typeface-webfont.svg#simplifica') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background-color: white;
-  color: #87ceeb;
+  color: #4693d6;
   max-width: 85%;
-  margin:auto;
-  font-family: Georgia, serif;
+  margin: auto;
+  font-family: 'simplifica', Georgia, serif;
+  font-size: 1.8em;
+  font-weight: 600;
 }
 
-h1 {
+.regular-heading {
   text-align: center;
   font-weight: bold;
-  font-style: italic;
+  font-size: 1.9em;
   font-family: "Arial Black", sans-serif;
-  color: #ffbf00;
-  text-shadow: 1px 2px black;
+  color:#f19f4c;
 }
 
 h2 {
   text-align: center;
-  text-shadow: 1px 1px black;
-  font-style: italic;
+  line-height: 98%;
   font-family: "Arial Black", sans-serif;
-  color: #6ec1f9;
+  color: #4483ce;
 }
 
 h3 {
@@ -33,29 +43,29 @@ h3 {
 }
 
 a {
-  color: #87ceeb;
-
+  color: #4483ce;
+  font-weight: 600;
 }
 
 a:visited {
-  color: #008fff;
+  color: #4483ce;
 }
 
 @media screen and (max-width: 350px) {
-  .about-info {
+  .about-film-info {
     background: rgba(255,255,255, 0.99);
     margin-top: 10px;
     margin-left: 0px;
   }
-  .about {
+  .about-film {
     background: black;
     margin-left: 5%;
     margin-right: 5%;
   }
 }
 @media screen and (max-width: 500px) {
-  .about-info {
-    background: rgba(255,255,255, 0.8);
+  .about-film-info {
+    background: rgba(255,255,255, 0.9);
     margin-left: 0px;
   }
   .line {
@@ -69,7 +79,13 @@ a:visited {
 }
 
 @media screen and (max-width: 650px) {
-  .about-info {
-    background: rgba(255,255,255, 0.75);
+  .about-film-info {
+    background: rgba(255,255,255, 0.9);
+  }
+  .regular-heading {
+    font-size: 1.4em;
+  }
+  h2 {
+    font-size: 1.1em;
   }
 }
