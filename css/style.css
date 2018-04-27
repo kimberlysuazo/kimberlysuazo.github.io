@@ -51,37 +51,38 @@ a:visited {
   color: #4483ce;
 }
 
-@media screen and (max-width: 350px) {
+.footer {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 350px) {
   .about-film-info {
     background: rgba(255,255,255, 0.99);
     margin-top: 10px;
-    margin-left: 0px;
-  }
-  .about-film {
-    background: black;
-    margin-left: 5%;
-    margin-right: 5%;
   }
 }
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .about-film-info {
-    background: rgba(255,255,255, 0.9);
     margin-left: 0px;
   }
   .line {
     margin-left: 2px;
     color: #ffbf00;
     font-size: .5em;
+    width: 200px;
+    margin: auto;
   }
-  .similar {
-    font-size: .7em;
+  .about-film {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .about-me-heading {
+    margin-top: 10%;
+    font-size: 4em;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .about-film-info {
-    background: rgba(255,255,255, 0.9);
-  }
+@media only screen and (max-width: 650px) {
   .regular-heading {
     font-size: 1.4em;
   }
