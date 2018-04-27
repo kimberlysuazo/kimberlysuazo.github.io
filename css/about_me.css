@@ -8,6 +8,7 @@
 .about-me-heading {
 	font-size: 5em;
 	font-weight: 500;
+	padding: 0;
 }
 
 .about-me p {
@@ -28,9 +29,10 @@
 .info {
 	position: relative;
 	margin-top: -5%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .contact {
 	margin-top: 50px;
 }
+
