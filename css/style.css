@@ -11,7 +11,13 @@
   font-style: normal;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   color: #4693d6;
   max-width: 85%;
@@ -19,6 +25,16 @@ body {
   font-family: 'simplifica', Georgia, serif;
   font-size: 1.8em;
   font-weight: 600;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .regular-heading {
@@ -53,10 +69,6 @@ a:hover {
 
 a:visited {
   color: #4483ce;
-}
-
-.footer {
-  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 350px) {
