@@ -1,6 +1,6 @@
 @import './index.css';
 @import './about_film.css';
-@import './about_me.css';
+@import './contact_me.css';
 
 @font-face {
   font-family: 'simplifica';
@@ -47,6 +47,10 @@ a {
   font-weight: 600;
 }
 
+a:hover {
+  color: #55ACEE;
+}
+
 a:visited {
   color: #4483ce;
 }
@@ -76,7 +80,7 @@ a:visited {
     margin-left: 5%;
     margin-right: 5%;
   }
-  .about-me-heading {
+  .contact-me-heading {
     margin-top: 10%;
     font-size: 4em;
   }

@@ -1,4 +1,4 @@
-.about-me {
+.contact-me {
 	font-family: 'simplifica';
 	color:#f19f4c;
 	font-weight: 600;
@@ -12,12 +12,12 @@
   width: 100%;
 }
 
-.about-me-heading {
+.contact-me-heading {
 	font-size: 5em;
 	font-weight: 500;
 }
 
-.about-me p {
+.contact-me p {
 	line-height: 30%;
 }
 
@@ -31,3 +31,13 @@
 	margin-top: 50px;
 }
 
+.fa {
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #55ACEE;
+}
+
+.fa:hover {
+	color: #4483ce;
+}
