@@ -1,6 +1,5 @@
 @import './index.css';
-@import './about_film.css';
-@import './contact_me.css';
+
 
 @font-face {
   font-family: 'simplifica';
@@ -18,9 +17,8 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #ffedd1;
   color: #4693d6;
-  max-width: 85%;
   margin: auto;
   font-family: 'simplifica', Georgia, serif;
   font-size: 1.8em;
@@ -29,12 +27,28 @@ body {
 
 .content {
   flex: 1 0 auto;
+  position: relative;
+  padding:50px;
+}
+
+.content::after {
+  position:absolute;
+  bottom: -50px;
+  left: 0px;
+  width: 100%;
+  content:" ";
+  background: radial-gradient(circle at 50% 0%, #ffedd1 25%, #bcdddc 26%, #bcdddc 40%);
+  background-color: #ffedd1;
+  background-size:50px 100px;
+  height:60px;
+  background-repeat: repeat-x;
 }
 
 .footer {
   flex-shrink: 0;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #bcdddc;
 }
 
 .regular-heading {
