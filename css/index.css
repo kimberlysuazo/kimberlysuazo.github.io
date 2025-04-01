@@ -1,35 +1,46 @@
-.contact-me {
-	font-family: 'simplifica';
-	color:#f19f4c;
-	font-weight: 600;
-	font-size: 2em;
-	position: absolute;
-  text-align: center;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-.contact-me-heading {
+.main-heading {
 	font-size: 5em;
 	font-weight: 500;
 	color: #fc972f;
-}
-
-.contact-me p {
-	line-height: 30%;
+	margin: 20px;
 }
 
 .info {
 	position: relative;
-	margin-top: -5%;
-	margin-bottom: 5%;
+	padding: 75px 0;
+	line-height: 30%;
 }
 
-.contact {
-	margin-top: 50px;
+.about {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 10px 50px;
+	padding: 75px 10px;
+	background-color: #fdc1b4;
+	color: #253e49;
+}
+
+.about img {
+	max-width: 300px;
+}
+
+.about p {
+	max-width: 400px;
+}
+
+.curve {
+	height: 50px;
+	background:
+		radial-gradient(20px at 75% 0%,#ffedd1 98%,#fdc1b4) 50% 20px/80px 100% repeat-x,
+		radial-gradient(20px at 25% 50% ,#fdc1b4 99%,#ffedd1 101%) top/80px 40px repeat-x;
+}
+
+.curve-footer {
+	height: 50px;
+	background:
+		radial-gradient(20px at 75% 100%,#bcdddc 98%,#fdc1b4) 50% calc(100% - 20px)/80px 100% repeat-x,
+		radial-gradient(20px at 25% 50% ,#fdc1b4 99%,#bcdddc 101%) bottom/80px 40px repeat-x;
 }
 
 .fa {
@@ -41,4 +52,28 @@
 
 .fa:hover {
 	color: #35525e;
+}
+
+@media only screen and (max-width: 500px) {
+	.main-heading {
+		font-size: 4em;
+	}
+
+	.info, .about{
+		padding: 50px 10px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.main-heading {
+		font-size: 3.5em;
+	}
+	
+	.about img {
+		max-width: 250px;
+	}
+
+	.about p {
+		max-width: 300px;
+	}
 }
