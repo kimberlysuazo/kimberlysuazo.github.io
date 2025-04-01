@@ -2,121 +2,39 @@
 
 
 @font-face {
-  font-family: 'simplifica';
-  src: url('./fonts/simplifica_typeface-webfont.eot');
-  src: url('./fonts/simplifica_typeface-webfont.woff') format('woff'),
-       url('./fonts/simplifica_typeface-webfont.svg#simplifica') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'simplifica';
+    src: url('./fonts/simplifica_typeface-webfont.eot');
+    src: url('./fonts/simplifica_typeface-webfont.woff') format('woff'),
+        url('./fonts/simplifica_typeface-webfont.svg#simplifica') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html, body {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffedd1;
-  color: #4693d6;
-  margin: auto;
-  font-family: 'simplifica', Georgia, serif;
-  font-size: 1.8em;
-  font-weight: 600;
-}
-
-.content {
-  flex: 1 0 auto;
-  position: relative;
-  padding:50px;
-}
-
-.content::after {
-  position:absolute;
-  bottom: -50px;
-  left: 0px;
-  width: 100%;
-  content:" ";
-  background: radial-gradient(circle at 50% 0%, #ffedd1 25%, #bcdddc 26%, #bcdddc 40%);
-  background-color: #ffedd1;
-  background-size:50px 100px;
-  height:60px;
-  background-repeat: repeat-x;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #bcdddc;
+    color:#f19f4c;
+    width: 100%;
+    margin: auto;
+    font-family: 'simplifica', Georgia, serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
 }
 
 .footer {
-  flex-shrink: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: #bcdddc;
+    flex-shrink: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #bcdddc;
 }
 
-.regular-heading {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.9em;
-  font-family: "Arial Black", sans-serif;
-  color:#f19f4c;
-}
-
-h2 {
-  text-align: center;
-  line-height: 98%;
-  font-family: "Arial Black", sans-serif;
-  color: #4483ce;
-}
-
-h3 {
-  text-align: center;
-  font-weight: bold;
-  font-style: italic;
-}
-
-a {
-  color: #4483ce;
-  font-weight: 600;
-}
-
-a:hover {
-  color: #55ACEE;
-}
-
-a:visited {
-  color: #4483ce;
-}
-
-@media only screen and (max-width: 350px) {
-  .about-film-info {
-    background: rgba(255,255,255, 0.99);
-    margin-top: 10px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .about-film-info {
-    margin-left: 0px;
-  }
-  .line {
-    margin-left: 2px;
-    color: #ffbf00;
-    font-size: .5em;
-    width: 200px;
-    margin: auto;
-  }
-  .about-film {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .contact-me-heading {
-    margin-top: 10%;
-    font-size: 4em;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .regular-heading {
-    font-size: 1.4em;
-  }
-  h2 {
-    font-size: 1.1em;
-  }
+.lace {
+    background: #ffedd1;
 }
