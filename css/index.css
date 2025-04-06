@@ -9,8 +9,27 @@
 
 .info {
 	position: relative;
-	padding: 75px 0;
+	padding: 0 0 75px 0;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
 	line-height: 30%;
+}
+
+.sticky-graphic-top {
+	height: 150px;
+	position: sticky;
+	top: 0px;
+	left: 10%;
+	display: block;
+}
+
+.sticky-graphic-bottom {
+	height: 100px;
+	position: sticky;
+	bottom: 0px;
+	margin-left:85%;
+	display: block;
 }
 
 .about {
@@ -18,7 +37,10 @@
 	flex-flow: row wrap;
 	justify-content: center;
 	gap: 10px 50px;
-	padding: 75px 10px;
+	padding: 75px 10px 10px 10px;
+}
+
+.bubblegum-bg {
 	background-color: #fdc1b4;
 	color: #253e49;
 }
@@ -64,40 +86,4 @@
 
 .fa:hover {
 	color: #35525e;
-}
-
-
-
-@media only screen and (max-width: 1050px) {
-	.main-heading {
-		font-weight: 500;
-	}
-
-	.info, .about{
-		padding: 50px 10px 75px 10px;
-	}
-}
-
-@media only screen and (max-width: 575px) {
-	.main-heading {
-		font-size: 4em;
-	}
-
-	.info, .about{
-		padding: 40px 10px;
-	}
-}
-
-@media only screen and (max-width: 475px) {
-	.main-heading {
-		font-size: 3em;
-	}
-	
-	.about img {
-		max-width: 250px;
-	}
-
-	.about p {
-		max-width: 300px;
-	}
 }
